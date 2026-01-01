@@ -43,143 +43,110 @@ body::after {
     letter-spacing: -0.01em;
     font-feature-settings: "liga" 1, "kern" 1;
 }
-
 .relative {
     position: relative;
 }
-
 .min-h-screen {
     min-height: 100vh;
 }
-
 .overflow-x-hidden {
     overflow-x: hidden;
 }
-
 .flex {
     display: flex;
 }
-
 .flex-col {
     flex-direction: column;
 }
-
 .items-center {
     align-items: center;
 }
-
 .items-start {
     align-items: flex-start;
 }
-
 .justify-center {
     justify-content: center;
 }
-
 .justify-between {
     justify-content: space-between;
 }
-
 .w-full {
     width: 100%;
 }
-
 .max-w-4xl {
     max-width: 56rem;
 }
-
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
-
 .w-full {
     width: 100%;
 }
-
 .px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 .py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
 .gap-4 {
     gap: 1rem;
 }
-
 .gap-8 {
     gap: 2rem;
 }
-
 .gap-6 {
     gap: 1.5rem;
 }
-
 .sm\:gap-6 {
     gap: 1.5rem;
 }
-
 .md\:gap-8 {
     gap: 2rem;
 }
-
 .mb-4 {
     margin-bottom: 1rem;
 }
-
 .mb-6 {
     margin-bottom: 1.5rem;
 }
-
 .mb-8 {
     margin-bottom: 2rem;
 }
-
 .mb-12 {
     margin-bottom: 3rem;
 }
-
 .sm\:mb-8 {
     margin-bottom: 2rem;
 }
-
 .sm\:mb-12 {
     margin-bottom: 3rem;
 }
-
 .md\:mb-16 {
     margin-bottom: 4rem;
 }
-
 .mb-16 {
     margin-bottom: 4rem;
 }
-
 .mb-24 {
     margin-bottom: 6rem;
 }
-
 .text-5xl {
     font-size: 3rem;
     line-height: 1.1;
     letter-spacing: -0.02em;
 }
-
 .text-4xl {
     font-size: 2.25rem;
     line-height: 1.1;
     letter-spacing: -0.01em;
 }
-
 .text-2xl {
     font-size: 1.5rem;
     line-height: 1.5;
 }
-
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.5;
@@ -380,8 +347,6 @@ body::after {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-
-/* Social Links */
 .social-link {
     color: #ffffff;
     transition: opacity 0.2s;
@@ -393,8 +358,6 @@ body::after {
 .social-link:hover {
     opacity: 0.7;
 }
-
-/* Experience Items */
 .experience-item {
     padding: 1rem;
     border-radius: 0.5rem;
@@ -404,8 +367,6 @@ body::after {
 .experience-item:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
-
-/* Project Cards */
 .project-card {
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -419,8 +380,6 @@ body::after {
     border-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
 }
-
-/* Membership Cards */
 .membership-card {
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -434,8 +393,6 @@ body::after {
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.2);
 }
-
-/* Projects list layout (side + hackathon) */
 .project-list {
     list-style: none;
 }
@@ -490,7 +447,6 @@ body::after {
     margin-left: 0.6rem;
 }
 
-/* Tighter typographic scales for project area */
 .projects-columns h3 {
     font-size: 1.25rem;
 }
@@ -499,9 +455,8 @@ body::after {
     font-size: 2.1rem;
 }
 
-/* Compact mode: shrink Experience and Projects by ~50% */
 #experience h2, #projects h2 {
-    font-size: 1.05rem; /* ~50% of previous section heading */
+    font-size: 1.05rem;
     margin-bottom: 0.6rem;
 }
 
@@ -563,22 +518,21 @@ body::after {
     gap: 0.6rem;
 }
 
-/* Force single-column layout and smaller stacked cards for Projects */
 #projects .projects-grid {
-    grid-template-columns: 1fr !important; /* always single column */
+    grid-template-columns: 1fr !important;
 }
 
 #projects .project-card {
-    padding: 0.6rem 0.8rem; /* smaller padding */
+    padding: 0.6rem 0.8rem;
     border-radius: 8px;
 }
 
 #projects .project-card h4 {
-    font-size: 0.95rem; /* slightly smaller title */
+    font-size: 0.95rem;
 }
 
 #projects .project-card p {
-    font-size: 0.82rem; /* slightly smaller desc */
+    font-size: 0.82rem;
 }
 
 #projects .project-img {
@@ -595,7 +549,6 @@ body::after {
 }
 
 @media (min-width: 640px) {
-    /* keep single column even on larger screens per request */
     #projects .projects-grid {
         grid-template-columns: 1fr !important;
     }
@@ -603,7 +556,6 @@ body::after {
 
 
 @media (max-width: 640px) {
-    /* Slightly tighter for mobile */
     #experience .experience-item, #projects .project-card, #projects .project-list-item {
         padding: 0.45rem;
     }
@@ -613,8 +565,6 @@ body::after {
     }
 }
 
-
-/* Make project cards (if used elsewhere) have a stronger bulge */
 .project-card {
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -628,7 +578,6 @@ body::after {
     box-shadow: 0 22px 44px rgba(8,10,15,0.55);
 }
 
-/* Project image inside cards */
 .project-img {
     width: 56px;
     height: 56px;
@@ -642,8 +591,6 @@ body::after {
     align-items: center;
     justify-content: center;
 }
-
-/* Ensure consistent, slightly smaller title sizes in the project cards */
 .project-card h4 {
     font-size: 1.05rem;
     margin-bottom: 0.15rem;
@@ -655,11 +602,10 @@ body::after {
     color: #9aa3ad;
 }
 
-/* Publications link styles - match Projects typography */
 .pub-link {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.05rem; /* match project title size */
+    font-size: 1.05rem;
     font-weight: 600;
     font-family: inherit;
     line-height: 1.15;
@@ -670,9 +616,8 @@ body::after {
     opacity: 0.95;
 }
 
-/* Publications typographic sizing - match project title + desc */
 .publications-list .project-title {
-    font-size: 1.05rem; /* same as .project-card h4 */
+    font-size: 1.05rem;
     font-weight: 600;
     font-family: inherit;
     letter-spacing: -0.01em;
@@ -685,7 +630,7 @@ body::after {
 }
 
 .publications-list .project-desc {
-    font-size: 0.95rem; /* same as .project-desc */
+    font-size: 0.95rem;
     color: #9aa3ad;
     margin-top: 0.15rem;
 }
@@ -695,12 +640,6 @@ body::after {
     border-radius: 8px;
 }
 
-
-
-
-
-
-/* Responsive Design */
 @media (min-width: 640px) {
     .sm\:px-6 {
         padding-left: 1.5rem;
@@ -813,12 +752,11 @@ body::after {
     }
 }
 
-/* Smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -835,4 +773,3 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #475569;
 }
-
