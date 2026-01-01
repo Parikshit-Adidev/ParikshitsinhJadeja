@@ -33,7 +33,7 @@ body::after {
     position: fixed;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65));
+    filter: blur(6px) brightness(0.90) saturate(0.6);
     pointer-events: none;
     mix-blend-mode: normal;
 }
