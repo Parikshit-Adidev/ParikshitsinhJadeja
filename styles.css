@@ -28,7 +28,7 @@ body::before {
     z-index: -2;
     pointer-events: none;
     /* stronger blur + darken the image itself */
-    filter: blur(6px) brightness(0.70) saturate(0.9);
+    filter: blur(6px) brightness(0.90) saturate(0.6);
     transform: scale(1.03);
     will-change: filter, transform;
 }
@@ -39,7 +39,7 @@ body::after {
     position: fixed;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.90)); /* significantly darker for strong readability */
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)); /* significantly darker for strong readability */
     pointer-events: none;
     mix-blend-mode: normal;
 }
