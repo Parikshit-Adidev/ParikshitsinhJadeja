@@ -39,7 +39,7 @@ body::after {
     position: fixed;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.90)); /* significantly darker for strong readability */
+    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.70)); /* significantly darker for strong readability */
     pointer-events: none;
     mix-blend-mode: normal;
 }
