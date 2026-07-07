@@ -1,41 +1,63 @@
-## Features
+# Personal Portfolio (Legacy Version)
 
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Dark Theme**: Modern dark blue-grey gradient background
-- **Sections**:
-  - Header with bio and social links
-  - Experience section
-  - Projects (Side Projects and Hackathon Projects)
-  - Memberships
-  - Projects (Side Projects and Hackathon Projects)
+This repository contains an archived version of my personal portfolio website. It represents an earlier iteration of my portfolio and is preserved for reference and version history. My current portfolio has since been redesigned with updated content, projects, and a refreshed user interface.
+
+## Overview
+
+The website was built as a lightweight, responsive personal portfolio to showcase my work, experience, projects, memberships, and social links.
+
+### Features
+
+* Responsive layout for desktop, tablet, and mobile devices
+* Modern dark blue and grey theme
+* Personal introduction with social media links
+* Experience section
+* Side Projects section
+* Hackathon Projects section
+* Memberships section
+* Smooth scrolling and small interactive UI enhancements
 
 ## Technologies Used
 
-- HTML5
-- CSS3 (with custom utility classes)
-- JavaScript (ES6+)
-- Google Fonts (Playfair Display for headings, Inter for body text)
-- Optional small JS utilities (smooth scroll)
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Google Fonts
+
+  * Playfair Display for headings
+  * Inter for body text
 
 ## Getting Started
 
-1. Open `index.html` in a web browser
-2. Open `index.html` in a web browser to view the static site
+Clone the repository and open `index.html` in your preferred web browser.
 
-## File Structure
-
+```bash
+git clone <repository-url>
+cd portfolio
 ```
+
+Then open `index.html`.
+
+## Project Structure
+
+```text
 portfolio/
-├── index.html      # Main HTML structure
-├── styles.css      # All styling and responsive design
-├── script.js       # Small UI helper scripts (smooth scroll, interactions)
-└── README.md       # This file
+├── index.html      # Website structure
+├── styles.css      # Styling and responsive layout
+├── script.js       # UI interactions and smooth scrolling
+└── README.md       # Documentation
 ```
 
-## Notes
+## Customization
 
-- The project lists and sections can be edited in `index.html`; project logos can be added in the `.project-logo` elements
-- Profile image is loaded from the original website
-- Social media links point to the original profiles
-- The design closely matches the original website's layout and styling
+The website can be easily modified by editing the following files:
 
+* `index.html` for content, sections, and project information
+* `styles.css` for styling and layout
+* `script.js` for interactive functionality
+
+Project logos, profile information, and social media links can also be updated directly in the HTML.
+
+## Status
+
+This repository is no longer actively maintained and serves as an archive of a previous version of my portfolio. Development has continued in a newer version with updated projects, achievements, design, and content.
