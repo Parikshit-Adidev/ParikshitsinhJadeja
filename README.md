@@ -20,7 +20,7 @@ The website was built as a lightweight, responsive personal portfolio to showcas
 ## Technologies Used
 
 * HTML5
-* CSS3
+* CSS
 * JavaScript (ES6+)
 * Google Fonts
 
